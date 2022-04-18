@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Cinzel+Decorative&family=Cormorant+SC:wght@300&family=Karla:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Cinzel+Decorative&family=Cormorant+SC:wght@300&family=Karla:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #FFFFFF;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fdfdfd;
+}
+
+ul a {
+    font-family: karla;
+    color: black;
+}
+
+
+#logo {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+
+}
+
+.menu__header {
+    display: flex;
+    font-size: 30px;
+    gap: 20px;
+    cursor: pointer;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.card__banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000be;
+    width: 100%;
+    height: 600px;
+
+}
+
+
+.banner {
+    background-image: url(../img/baner.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: karla;
+}
+
+#banner__sobre {
+    background-image: url(../img/cama-box-king.jfif);
+    background-position: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: karla;
+
+}
+
+h1 {
+    color: hsl(182, 93%, 38%);
+    font-size: 72px;
+    text-align: center;
+
+}
+
+.texto__banner {
+    color: white;
+    padding-bottom: 25px;
+    font-size: 20px;
+}
+
+.btn__banner {
+    width: 150px;
+    height: 42px;
+    background-color: rgba(0, 0, 0, 0.315);
+    border-color: hsl(182, 93%, 38%);
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn__banner a {
+    color: rgb(255, 255, 255);
+}
+
+.btn__banner:hover {
+    background-color: #33bb69ab;
+}
+
+h2 {
+    text-align: center;
+    font-size: 60px;
+    margin: 30px;
+}
+
+.container__cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    width: 30%;
+    height: 600px;
+    margin: 10px;
+    border-radius: 3%;
+    background-color: #E5E5E5;
+}
+
+.card p {
+    font-family: oswald;
+    color: black;
+
+}
+
+
+.card__background__colchao {
+    background-image: url('/img/cama-box-king.jfif');
+    background-size: cover;
+    background-position: 80%;
+    background-repeat: no-repeat;
+    border-radius: 3%;
+    padding: 10px;
+    width: 100%;
+    height: 20em;
+}
+
+.card__background__travesseiro {
+    background-image: url('/img/meio-como-escolher-travesseiro.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 3%;
+    padding: 10px;
+    width: 100%;
+    height: 20em;
+}
+
+.card__background__cabeceira {
+    background-image: url('/img/cabeceira.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 3%;
+    padding: 10px;
+    width: 100%;
+    height: 20em;
+}
+
+.card__texto {
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+
+}
+
+h3,
+h2 {
+    margin-top: 50px;
+    background-color: #ffffff;
+    font-family: karla;
+    color: hsl(182, 93%, 38%);
+    text-align: center;
+}
+
+p {
+    font-family: karla;
+    color: rgba(0, 0, 0, 0.753);
+    font-size: 18px;
+    margin: 10px;
+    text-align: justify;
+}
+
+.btn__itens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 42px;
+    padding: 20px;
+    cursor: pointer;
+    margin-left: 25%;
+    border-radius: 30em;
+    background-color: hsl(182, 93%, 38%);
+
+}
+
+.btn__itens:hover {
+    background-color: #3d30f0;
+}
+
+.btn__card:hover {
+    background-color: black;
+}
+
+
+
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: #000000;
+    margin-top: 100px;
+
+}
+
+
+footer h4 {
+    color: rgb(216, 216, 216);
+}
+
+.box__footer__checkpoint {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+
+}
+
+.footer__dados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    font-size: 20px;
+    color: beige;
+
+}
+
+.footer__dados img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1em;
+    height: 1em;
+}
+
+h4 {
+    margin-bottom: 15px;
+}
+
+.__midias {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+
+}
+
+.__midias a {
+    padding: 15px;
+    justify-content: center;
+
+}
+
+.__midias p {
+    color: white;
+}
+
+.__aluno {
+    margin: 20px;
+    justify-content: center;
+}
+
+#icon__git {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#icon__linkedin {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+
+/* adaptatividade e responsividade */
+
+@media (max-width: 516px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 10px;
+
+    }
+
+    .banner {
+        width: 100%;
+
+    }
+
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .card__banner {
+
+        width: 100%;
+
+    }
+
+    .container__cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        object-fit: cover;
+        width: 80%;
+    }
+
+    .card {
+        width: 80%;
+        margin: 0px auto;
+        float: none;
+        margin-bottom: 20px;
+        margin-right: -20px;
+    }
+
+    .box__footer__checkpoint {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
